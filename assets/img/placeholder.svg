@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#161616" />
+  <rect x="24" y="24" width="552" height="552" fill="none" stroke="#2e2e2e" stroke-width="4" />
+  <circle cx="300" cy="300" r="170" fill="#0d0d0d" stroke="#2e2e2e" stroke-width="4" />
+  <circle cx="300" cy="300" r="115" fill="none" stroke="#2e2e2e" stroke-width="2" />
+  <circle cx="300" cy="300" r="56" fill="#161616" stroke="#ffd400" stroke-width="4" />
+  <circle cx="300" cy="300" r="14" fill="#ffd400" />
+  <text x="300" y="525" fill="#9e9e9e" font-family="Impact, Arial Black, sans-serif" font-size="24" letter-spacing="4" text-anchor="middle">NO COVER ART</text>
+</svg>

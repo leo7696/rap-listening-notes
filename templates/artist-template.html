@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【歌手原文名】 | 我的饒舌聽歌筆記</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="hazard-tape" aria-hidden="true"></div>
+
+  <nav class="site-nav" aria-label="麵包屑導覽">
+    <a href="../countries/【兩碼小寫國碼】.html">← 【國家中文名】歌手目錄</a>
+    <a href="../index.html">首頁</a>
+  </nav>
+
+  <main class="container">
+    <!-- 1. 大標題與一句話介紹 -->
+    <header class="page-header">
+      <h1 class="hero-title">【ARTIST ORIGINAL NAME】</h1>
+      <p class="tagline">【一句話介紹，繁體中文】</p>
+    </header>
+
+    <!-- 2. 基本資料 -->
+    <dl class="spec">
+      <div class="spec-item">
+        <dt>國家</dt>
+        <dd><a href="../countries/【兩碼小寫國碼】.html">【國家中文名】</a></dd>
+      </div>
+      <div class="spec-item">
+        <dt>出身</dt>
+        <dd>【出身城市／地區】</dd>
+      </div>
+      <div class="spec-item">
+        <dt>出道年份</dt>
+        <dd>【YYYY】</dd>
+      </div>
+      <div class="spec-item">
+        <dt>風格</dt>
+        <dd>【關鍵字1、關鍵字2、關鍵字3】</dd>
+      </div>
+    </dl>
+
+    <!-- 3. 專輯（依發行年份由舊到新） -->
+    <section aria-labelledby="albums-heading">
+      <h2 id="albums-heading" class="section-title">專輯收藏 / DISCOGRAPHY</h2>
+      <div class="album-list">
+
+        <details class="album-card">
+          <summary>
+            <!-- 有封面時改為 ../assets/img/covers/歌手slug-專輯slug.jpg -->
+            <img class="album-cover" src="../assets/img/placeholder.svg" alt="專輯封面：【專輯原文名】" width="68" height="68">
+            <div class="album-info">
+              <span class="album-title">【專輯原文名】</span>
+              <span class="album-year">【YYYY】</span>
+            </div>
+            <span class="album-toggle" aria-hidden="true"></span>
+          </summary>
+          <ol class="tracklist">
+            <li><a href="https://www.youtube.com/results?search_query=【歌手名】+【曲目1】" target="_blank" rel="noopener noreferrer">【曲目 1 原文】</a></li>
+            <li class="fav"><a href="https://www.youtube.com/results?search_query=【歌手名】+【最愛曲目】" target="_blank" rel="noopener noreferrer">【最愛曲目原文（僅在使用者指定時加 class="fav"）】</a></li>
+            <!-- 若曲目不確定，請刪除上方 li 並只保留下面這行： -->
+            <!-- <li>曲目待補</li> -->
+          </ol>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- 4. 合作過的歌手（若無合作對象，請將此整個 section 刪除） -->
+    <section aria-labelledby="collab-heading">
+      <h2 id="collab-heading" class="section-title">合作過的歌手 / COLLABORATIONS</h2>
+      <ul class="collab-list">
+        <!-- 若合作對象在本站有歌手頁，請加上 <a href="partner-slug.html">歌手名</a> -->
+        <li>【合作對象原文名】 — 〈【合作歌名原文】〉</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- 5. 頁尾：連回所屬國家頁 -->
+  <footer class="page-footer">
+    <a href="../countries/【兩碼小寫國碼】.html">← 返回【國家中文名】歌手目錄</a>
+    <a href="../index.html">回首頁</a>
+  </footer>
+</body>
+</html>
